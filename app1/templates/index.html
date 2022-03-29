@@ -1,0 +1,87 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{%static 'images/css/index.css'%}">
+    <link rel="stylesheet" href="{%static 'images/css/slider.css'%}">
+    <link rel="stylesheet" href="{%static 'images/css/dropdown.css'%}">
+    </head>
+
+<body>
+    <header>
+        {% include 'navbar.html'%}
+    </header>
+    <main>
+        <section>
+            {% include 'slider.html'%}
+        </section>
+
+     <div class="post-container">
+         <div class="posts">
+         
+
+         </div>
+         <div class="comments">
+
+         </div>
+     </div>
+
+    </main>
+
+<footer>
+  <div class="container-footer">
+       <div class="coustmer">
+        <h2>Customer Care</h2> <br>
+        Help Center <br>
+        How to Buy<br>
+        Corporate & Bulk Purchasing<br>
+        Returns & Refunds<br>
+        Daraz Shop<br>
+        Contact Us<br>
+        Purchase Protection<br>
+        Daraz Pick up Points<br>
+        Fulfilled by Daraz (FBD)<br>
+        <h1>Make Money With Us</h1><br>
+        Daraz University<br>
+        Sell on Daraz<br>
+        Join Daraz Affiliate Program<br>
+
+         
+       </div>
+       <div class="bazaar">
+        <h1>Daraz</h1> <br>
+        About Us<br>
+        Digital Payments<br>
+        Daraz Cares<br>
+        Daraz Blog<br>
+        Terms & Conditions<br>
+        Privacy Policy<br>
+        NTN Number : 4012118-6<br>
+        STRN Number : 1700401211818<br>
+        Online Shopping App<br>
+        Online Grocery Shopping<br>
+        Daraz Exclusive<br>
+        How to shop on Daraz<br>
+        Pak Vs Aus<br>
+
+       </div>
+       <div class="icons">
+
+
+       </div>
+  </div>
+
+</footer>
+
+
+    
+    <script src="{% static 'images/java.js' %}" type="text/javascript"></script>
+
+</body>
+
+</html>
